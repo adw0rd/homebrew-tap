@@ -1,17 +1,17 @@
 class Rcode < Formula
   desc "Терминальный агент разработки с GigaChat, Yandex AI Studio, OpenRouter и локальными моделями"
   homepage "https://github.com/adw0rd/rcode"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/adw0rd/rcode/releases/download/v0.7.0/rcode-v0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "08df7b0ed25a74983f20fb8ad2c119ab7e1576f4b3ae96884f3809a51dc9abda"
+      url "https://github.com/adw0rd/rcode/releases/download/v0.8.0/rcode-v0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0a630e0ba0ecc249025425786fb9cbb83e2e64eb99234c11799700d84bc2162f"
     end
     on_intel do
-      url "https://github.com/adw0rd/rcode/releases/download/v0.7.0/rcode-v0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "610e976c56d0d73ecb3587e6ca467dbbec272127e26dd60b7f40a876fe588f25"
+      url "https://github.com/adw0rd/rcode/releases/download/v0.8.0/rcode-v0.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "228f22390304ea4671dfdd1426cc1b9824ceffba1707306dad353b6fdfacad9e"
     end
   end
 
@@ -19,8 +19,8 @@ class Rcode < Formula
     depends_on arch: :x86_64
 
     on_intel do
-      url "https://github.com/adw0rd/rcode/releases/download/v0.7.0/rcode-v0.7.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7043b3e6b72a80f8fa3fc35e08823e546fa421fd0ae42f32cca692d0349ed0d5"
+      url "https://github.com/adw0rd/rcode/releases/download/v0.8.0/rcode-v0.8.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "34548b46f6c581496d4d621e4b48f7527ef8adec917f7a963154e1cb37723bed"
     end
   end
 
